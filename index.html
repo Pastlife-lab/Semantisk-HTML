@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8" />   <!-- standard charset-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- standard viewport-->
+    <title>Jon sin Side</title>
+    <meta name="description" content="oppgave for skolearbeids og test" />  <!-- Enkel kort forklaring -->
+    <link rel="icon" href="favicon.jpeg" type="image/x-icon" /> <!-- AI/KI generert icon =) -->
+  </head>
+  
+<body>
+    <div>
+        <header> 
+            <h1>Velkommen til min side</h1>
+            <p>Dette er en introduksjon til semantiske tagger i HTML.</p>
+        </header>
+        
+        <main>
+          <h2>Nyheter</h2>
+          <p><em>Nyhet 1:</em> Vi lærer HTML.</p>   <!--Tester ut <em></em> -->
+          <p><mark>Nyhet 2:</mark> Vi forstår semantikk.</p>   <!-- Gul markør -->             
+          <p>Nyhet 3: Jeg leker <strong> LITT </strong> mye med  TAGS   </p>     
+          
+                <address>
+                <h2>Kontakt oss</h2>
+                <p>
+                Send oss en e-post på
+                <a href="mailto:jonfredrik@bribery.no">jonfredrik@bribery.no</a>.<!-- Egen laget mail for studie tiden-->   
+                </p>        
+                </address>
+        </main>
+
+            <aside>
+                <h3>Relatert lesing</h3> <!-- Jon tester dette litt ut -->
+                <ul>
+                <li><a href="/html-guide">HTML Guide</a></li>
+                <li><a href="/css-tips">CSS Tips</a></li>
+                </ul>
+            </aside>
+
+                <p>
+                    Det er <strong>veldig viktig</strong> å forstå at <em>semantikk</em> ikke er om 
+                    styling, det er om <code>&lt;meaning&gt;</code>. Bruk <strong>alltid</strong> 
+                    riktig tag for jobben!
+                </p>
+
+            <details>
+                <summary>Hva er responsivt design?</summary>
+                <p>Responsivt design betyr at siden tilpasser seg enhetens skjermstørrelse...</p>
+            </details>
+
+        <blockquote>
+                <p>"Responsive web design is the presentation of web content in the most 
+                relevant format for the viewport and device accessing it."</p>
+                <footer>— Ben Frain, Responsive Web Design with HTML5 and CSS</footer>
+        </blockquote>
+
+            <footer>
+                <p>&copy; 2025 Min Side. Alle rettigheter reservert.</p>
+                <nav>
+                <a href="/personvern">Personvern</a> | 
+                <a href="/vilkar">Vilkår</a>
+                </nav>
+            </footer>
+    </div>
+  <style>
+    summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+details[open] summary {
+  color: blue;
+}
+
+details {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  width: 50%;    /* la til dette... personlig syntes så litt bedre ut en en liten firkant med hele breden */
+}                   /*kansje litt feil plassering for styling ... burde gjøre om dette til -MCV- Model Controller View */
+  </style>
+
+</body>
+</html>
